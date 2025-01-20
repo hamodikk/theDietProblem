@@ -27,35 +27,35 @@ The prices per serving have been calculated using the price of the packaged item
 
 Here is the linear programming problem in standard form: 
 **Decision Variables:**
-- X$_1$ – Beef Bacon 
-- X$_2$ – Chicken Breasts 
-- X$_3$ – Butter 
-- X$_4$ – Quinoa 
-- X$_5$ – Cereal
+- X<sub>1</sub> – Beef Bacon 
+- X<sub>2</sub> – Chicken Breasts 
+- X<sub>3</sub> – Butter 
+- X<sub>4</sub> – Quinoa 
+- X<sub>5</sub> – Cereal
 
 **Objective Function:**
 
-Minimize Z = 0.85x$_1$ + 0.46x$_2$ + 0.37x$_3$ + 0.7x$_4$ + 0.85x$_5$ 
+Minimize Z = 0.85x<sub>1</sub> + 0.46x<sub>2</sub> + 0.37x<sub>3</sub> + 0.7x<sub>4</sub> + 0.85x<sub>5</sub> 
 
 **Constraints:**
 
 These inequalities are for sodium, energy, protein, vitamin D, calcium, iron, potassium and lastly non-zero requirements, in that order:
 
-270x$_1$ + 74x$_2$ + 0x$_3$ + 0x$_4$ + 130x$_5$ ≤ 35000
+270x<sub>1</sub> + 74x<sub>2</sub> + 0x<sub>3</sub> + 0x<sub>4</sub> + 130x<sub>5</sub> ≤ 35000
 
-45x$_1$ + 165x$_2$ + 100x$_3$ + 170x$_4$ + 140x$_5$ ≥ 14000
+45x<sub>1</sub> + 165x<sub>2</sub> + 100x<sub>3</sub> + 170x<sub>4</sub> + 140x<sub>5</sub> ≥ 14000
 
-5x$_1$ + 31x$_2$ + 0x$_3$ + 6x$_4$ + 2x$_5$ ≥ 350
+5x<sub>1</sub> + 31x<sub>2</sub> + 0x<sub>3</sub> + 6x<sub>4</sub> + 2x<sub>5</sub> ≥ 350
 
-0x$_1$ + 0x$_2$ + 0x$_3$ + 0x$_4$ + 4x$_5$ ≥ 140
+0x<sub>1</sub> + 0x<sub>2</sub> + 0x<sub>3</sub> + 0x<sub>4</sub> + 4x<sub>5</sub> ≥ 140
 
-2x$_1$ + 11x$_2$ + 0x$_3$ + 20x$_4$ + 130x$_5$ ≥ 9100
+2x<sub>1</sub> + 11x<sub>2</sub> + 0x<sub>3</sub> + 20x<sub>4</sub> + 130x<sub>5</sub> ≥ 9100
 
-0x$_1$ + 1x$_2$ + 0x$_3$ + 2.1x$_4$ + 3.6x$_5$ ≥ 126
+0x<sub>1</sub> + 1x<sub>2</sub> + 0x<sub>3</sub> + 2.1x<sub>4</sub> + 3.6x<sub>5</sub> ≥ 126
 
-58x$_1$ + 0x$_2$ + 0x$_3$ + 250x$_4$ + 10x$_5$ ≥ 32900
+58x<sub>1</sub> + 0x<sub>2</sub> + 0x<sub>3</sub> + 250x<sub>4</sub> + 10x<sub>5</sub> ≥ 32900
 
-x$_1$, x$_2$, x$_3$, x$_4$, x$_5$ ≥ 1
+x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, x<sub>4</sub>, x<sub>5</sub> ≥ 1
 
 This linear programming problem is designed to calculate a weekly diet using at least one of each of the 5 designated packaged food items with the goal finding the cheapest diet that will satisfy the nutritional needs within a week. The Python PuLP code and the output of the code have been included in the github repository under [PuLP code](Assignment_1_PuLP.py) and [output](PuLP_Output.txt) respectively. 
 
