@@ -1,0 +1,31 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - C:\Users\john_\AppData\Local\Programs\Python\Python312\Lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\john_\AppData\Local\Temp\0989f43682004c12b3ec0905a8c33d7f-pulp.mps -timeMode elapsed -branch -printingOptions all -solution C:\Users\john_\AppData\Local\Temp\0989f43682004c12b3ec0905a8c33d7f-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 12 COLUMNS
+At line 41 RHS
+At line 49 BOUNDS
+At line 50 ENDATA
+Problem MODEL has 7 rows, 5 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (-4) rows, 4 (-1) columns and 10 (-13) elements
+0  Obj 95.946427 Primal inf 420.43992 (2)
+2  Obj 133.2709
+Optimal - objective value 133.2709
+After Postsolve, objective 133.2709, infeasibilities - dual 0 (0), primal 0 (0)
+Optimal objective 133.2708978 - 2 iterations time 0.002, Presolve 0.00
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Optimal servings for each food item for minimum cost:
+Devanco_Beef_Bacon: 0.0 servings
+Chicken_Breats: 0.0 servings
+Kerrygold_Butter: 0.0 servings
+O_Organics_Quinoa: 129.59752 servings
+Cocoa_Puffs_Cereal: 50.06192 servings
+
+Total weekly cost: $133.27
