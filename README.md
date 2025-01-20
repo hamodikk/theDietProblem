@@ -27,23 +27,35 @@ The prices per serving have been calculated using the price of the packaged item
 
 Here is the linear programming problem in standard form: 
 **Decision Variables:**
-- X1 – Beef Bacon 
-- X2 – Chicken Breasts 
-- X3 – Butter 
-- X4 – Quinoa 
-- X5 – Cereal 
+- X$_1$ – Beef Bacon 
+- X$_2$ – Chicken Breasts 
+- X$_3$ – Butter 
+- X$_4$ – Quinoa 
+- X$_5$ – Cereal
+
 **Objective Function:**
-Minimize Z = 0.85x~1~ + 0.46x~2~ + 0.37x~3~ + 0.7x~4~ + 0.85x~5~ 
-Constraints : 
-These inequalities are for sodium, energy, protein, vitamin D, calcium, iron, potassium and lastly non-zero requirements, in that order: 
-270x~1~ + 74x~2~ + 0x~3~ + 0x~4~ + 130x~5~ ≤ 35000 
-45x~1~ + 165x~2~ + 100x~3~ + 170x~4~ + 140x~5~ ≥ 14000 
-5x~1~ + 31x~2~ + 0x~3~ + 6x~4~ + 2x~5~ ≥ 350 
-0x~1~ + 0x~2~ + 0x~3~ + 0x~4~ + 4x~5~ ≥ 140 
-2x~1~ + 11x~2~ + 0x~3~ + 20x~4~ + 130x~5~ ≥ 9100 
-0x~1~ + 1x~2~ + 0x~3~ + 2.1x~4~ + 3.6x~5~ ≥ 126 
-58x~1~ + 0x~2~ + 0x~3~ + 250x~4~ + 10x~5~ ≥ 32900 
-x~1~, x~2~, x~3~, x~4~, x~5~ ≥ 1 
+
+Minimize Z = 0.85x$_1$ + 0.46x$_2$ + 0.37x$_3$ + 0.7x$_4$ + 0.85x$_5$ 
+
+**Constraints:**
+
+These inequalities are for sodium, energy, protein, vitamin D, calcium, iron, potassium and lastly non-zero requirements, in that order:
+
+270x$_1$ + 74x$_2$ + 0x$_3$ + 0x$_4$ + 130x$_5$ ≤ 35000
+
+45x$_1$ + 165x$_2$ + 100x$_3$ + 170x$_4$ + 140x$_5$ ≥ 14000
+
+5x$_1$ + 31x$_2$ + 0x$_3$ + 6x$_4$ + 2x$_5$ ≥ 350
+
+0x$_1$ + 0x$_2$ + 0x$_3$ + 0x$_4$ + 4x$_5$ ≥ 140
+
+2x$_1$ + 11x$_2$ + 0x$_3$ + 20x$_4$ + 130x$_5$ ≥ 9100
+
+0x$_1$ + 1x$_2$ + 0x$_3$ + 2.1x$_4$ + 3.6x$_5$ ≥ 126
+
+58x$_1$ + 0x$_2$ + 0x$_3$ + 250x$_4$ + 10x$_5$ ≥ 32900
+
+x$_1$, x$_2$, x$_3$, x$_4$, x$_5$ ≥ 1
 
 This linear programming problem is designed to calculate a weekly diet using at least one of each of the 5 designated packaged food items with the goal finding the cheapest diet that will satisfy the nutritional needs within a week. The Python PuLP code and the output of the code have been included in the github repository under [PuLP code](Assignment_1_PuLP.py) and [output](PuLP_Output.txt) respectively. 
 
